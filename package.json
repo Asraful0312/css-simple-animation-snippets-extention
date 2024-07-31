@@ -1,0 +1,25 @@
+{
+  "name": "css-simple-animation-snippets",
+  "displayName": "Css Simple Animation Snippets",
+  "description": "This is my snippets extenstion",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/css-simple-animation-snippets.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
