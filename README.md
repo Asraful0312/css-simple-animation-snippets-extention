@@ -12,15 +12,7 @@ Use this animation on input elements when there is an error or wherever you like
 
 - **Prefix**: `.shake`
 - **GIF**:
-  ![Shake Animation](images/shake.gif)
-
-### Pop Animation
-
-Apply this 'pop' class name on the HTML element to show the animation.
-
-- **Prefix**: `.pop`
-- **GIF**:
-  ![Pop Animation](images/pop.gif)
+  ![Shake Animation](https://raw.githubusercontent.com/Asraful0312/css-simple-animation-snippets-extention/main/images/shake.gif)
 
 ### Float Animation
 
@@ -28,7 +20,7 @@ Float an element like a balloon.
 
 - **Prefix**: `.float`
 - **GIF**:
-  ![Float Animation](images/float.gif)
+  ![Float Animation](https://raw.githubusercontent.com/Asraful0312/css-simple-animation-snippets-extention/main/images/float.gif)
 
 ### Spin Animation
 
@@ -36,7 +28,7 @@ Use this animation to spin something, such as a loader.
 
 - **Prefix**: `.spin`
 - **GIF**:
-  ![Spin Animation](images/spin.gif)
+  ![Spin Animation](https://raw.githubusercontent.com/Asraful0312/css-simple-animation-snippets-extention/main/images/spin.gif)
 
 ### Pulse Animation
 
@@ -44,7 +36,7 @@ Creates a pulsing effect, perfect for skeleton loaders or highlighting elements.
 
 - **Prefix**: `.pulse`
 - **GIF**:
-  ![Pulse Animation](images/pulse.gif)
+  ![Pulse Animation](https://raw.githubusercontent.com/Asraful0312/css-simple-animation-snippets-extention/main/images/pulse.gif)
 
 ### Wobble Animation
 
@@ -52,7 +44,13 @@ Moves the element back and forth to create a wobbling effect, useful for drawing
 
 - **Prefix**: `.wobble`
 - **GIF**:
-  ![Wobble Animation](images/wobble.gif)
+  ![Wobble Animation](https://raw.githubusercontent.com/Asraful0312/css-simple-animation-snippets-extention/main/images/wobble.gif)
+
+### Pop Animation
+
+Apply this 'pop' class name on the HTML element to show the animation.
+
+- **Prefix**: `.pop`
 
 ### Fade In Animation
 
@@ -60,20 +58,17 @@ Smoothly transitions the element from invisible to visible. Customize as needed.
 
 - **Prefix**: `.fade-in`
 
-
 ### Slide In from Left Animation
 
 Slides the element in from the left side. Adjust values as necessary.
 
 - **Prefix**: `.slide-in-left`
 
-
 ### Bounce Animation
 
 Bounces the element like a ball, ideal for animated loaders or playful effects.
 
 - **Prefix**: `.bounce`
-
 
 ### Flip Animation
 

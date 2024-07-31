@@ -1,15 +1,25 @@
 {
   "name": "css-simple-animation-snippets",
   "displayName": "Css Simple Animation Snippets",
-  "description": "This is my snippets extenstion",
+  "description": "This is CSS animation snippets extension",
   "version": "0.0.1",
+  "publisher": "AsrafulIslam",
   "engines": {
     "vscode": "^1.91.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/css-simple-animation-snippets.git"
+    "url": "https://github.com/Asraful0312/css-simple-animation-snippets-extention.git"
   },
+  "keywords": [
+    "css simple animation snippets",
+    "Css Simple Animation Snippets",
+    "css snippets",
+    "css animation",
+    "css animation snippet",
+    "css",
+    "animation"
+  ],
   "categories": [
     "Snippets"
   ],
