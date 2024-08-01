@@ -156,5 +156,134 @@
       "}"
     ],
     "description": "Creates a flipping animation."
+  },
+  "Text Color Animation": {
+    "prefix": ".text-color",
+    "body": [
+      "/* Text Color Animation: Creates a gradient text color animation that smoothly transitions through different colors. Ideal for headings or any text you want to highlight with dynamic color changes. */",
+      ".text-color {",
+      "  background-image: linear-gradient(",
+      "    to right,",
+      "    #60a5fa,",
+      "    #fb923c,",
+      "    #7e22ce,",
+      "    #60a5fa",
+      "  );",
+      "  background-size: 200% auto;",
+      "  -webkit-text-fill-color: transparent;",
+      "  -webkit-background-clip: text;",
+      "  animation: TextColor 5s linear infinite;",
+      "}",
+      "@keyframes TextColor {",
+      "  to { background-position: -200% center; }",
+      "}"
+    ],
+    "description": "Creates a Text Color changing animation."
+  },
+  "Blur Animation": {
+    "prefix": ".blur",
+    "body": [
+      "/* Blur Animation: Creates a smooth blur-to-clear effect, ideal for elements that need a transition from blurred to focused. */",
+      "@keyframes blur {",
+      "  from {",
+      "    filter: blur(10px);",
+      "  }",
+      "  to {",
+      "    filter: blur(0px);",
+      "  }",
+      "}",
+      ".blur {",
+      "  animation: blur 0.7s ease-in-out;",
+      "}"
+    ],
+    "description": "Creates a blur-to-clear animation."
+  },
+  "Bounce In Animation": {
+    "prefix": ".bounce-in",
+    "body": [
+      "/* Bounce In Animation: Bounces the element into view from above. Ideal for drawing attention to new content. */",
+      "@keyframes bounceIn {",
+      "  0%, 20%, 40%, 60%, 80%, 100% {",
+      "    transform: translateY(0);",
+      "  }",
+      "  50% {",
+      "    transform: translateY(-30px);",
+      "  }",
+      "}",
+      ".bounce-in {",
+      "  animation: bounceIn 2s;",
+      "}"
+    ],
+    "description": "Creates a bounce-in animation."
+  },
+  "Fade Out Animation": {
+    "prefix": ".fade-out",
+    "body": [
+      "/* Fade Out Animation: Smoothly fades the element out of view. Useful for transitions. */",
+      "@keyframes fadeOut {",
+      "  0% { opacity: 1; }",
+      "  100% { opacity: 0; }",
+      "}",
+      ".fade-out {",
+      "  animation: fadeOut 1s ease-in-out;",
+      "}"
+    ],
+    "description": "Creates a fade-out animation."
+  },
+  "Slide In from Right Animation": {
+    "prefix": ".slide-in-right",
+    "body": [
+      "/* Slide In from Right Animation: Slides the element in from the right side. Useful for side panels or alerts. */",
+      "@keyframes slideInRight {",
+      "  0% { transform: translateX(100%); }",
+      "  100% { transform: translateX(0); }",
+      "}",
+      ".slide-in-right {",
+      "  animation: slideInRight 0.5s ease-out;",
+      "}"
+    ],
+    "description": "Creates a slide-in from right animation."
+  },
+  "Zoom In Animation": {
+    "prefix": ".zoom-in",
+    "body": [
+      "/* Zoom In Animation: Scales the element up from a smaller size to its full size. Great for emphasis on new elements. */",
+      "@keyframes zoomIn {",
+      "  0% { transform: scale(0.5); }",
+      "  100% { transform: scale(1); }",
+      "}",
+      ".zoom-in {",
+      "  animation: zoomIn 0.5s ease-in-out;",
+      "}"
+    ],
+    "description": "Creates a zoom-in animation."
+  },
+  "Rotate Animation": {
+    "prefix": ".rotate",
+    "body": [
+      "/* Rotate Animation: Rotates the element 360 degrees. Useful for loading indicators or visual effects. */",
+      "@keyframes rotate {",
+      "  0% { transform: rotate(0deg); }",
+      "  100% { transform: rotate(360deg); }",
+      "}",
+      ".rotate {",
+      "  animation: rotate 1s linear infinite;",
+      "}"
+    ],
+    "description": "Creates a rotating animation."
+  },
+  "Flash Animation": {
+    "prefix": ".flash",
+    "body": [
+      "/* Flash Animation: Flashes the element in and out of view. Great for attention-grabbing elements or alerts. */",
+      "@keyframes flash {",
+      "  0%, 50%, 100% { opacity: 1; }",
+      "  25%, 75% { opacity: 0; }",
+      "}",
+      ".flash {",
+      "  animation: flash 1s infinite;",
+      "}"
+    ],
+    "description": "Creates a flashing animation."
   }
 }
