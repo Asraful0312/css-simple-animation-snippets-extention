@@ -2,7 +2,7 @@
   "name": "css-simple-animation-snippets",
   "displayName": "CSS Simple Animation Snippets",
   "description": "This is CSS animation snippets extension",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "publisher": "AsrafulIslam",
   "engines": {
     "vscode": "^1.91.0"

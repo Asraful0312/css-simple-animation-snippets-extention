@@ -48,19 +48,20 @@ Moves the element back and forth to create a wobbling effect, useful for drawing
 
 ## Additional Animations
 
-| Animation Name      | Description                                                                                     | Prefix            |
-| ------------------- | ----------------------------------------------------------------------------------------------- | ----------------- |
-| Pop Animation       | Apply this 'pop' class name on the HTML element to show the animation.                          | `.pop`            |
-| Fade In Animation   | Smoothly transitions the element from invisible to visible. Customize as needed.                | `.fade-in`        |
-| Slide In from Left  | Slides the element in from the left side. Adjust values as necessary.                           | `.slide-in-left`  |
-| Bounce Animation    | Bounces the element like a ball, ideal for animated loaders or playful effects.                 | `.bounce`         |
-| Flip Animation      | Rotates the element 360 degrees along the Y-axis, ideal for flipping cards or icons.            | `.flip`           |
-| Bounce In Animation | Bounces the element into view from above. Ideal for drawing attention to new content.           | `.bounce-in`      |
-| Fade Out Animation  | Smoothly fades the element out of view. Useful for transitions.                                 | `.fade-out`       |
-| Slide In from Right | Slides the element in from the right side. Useful for side panels or alerts.                    | `.slide-in-right` |
-| Zoom In Animation   | Scales the element up from a smaller size to its full size. Great for emphasis on new elements. | `.zoom-in`        |
-| Rotate Animation    | Rotates the element 360 degrees. Useful for loading indicators or visual effects.               | `.rotate`         |
-| Flash Animation     | Flashes the element in and out of view. Great for attention-grabbing elements or alerts.        | `.flash`          |
+| Animation Name       | Description                                                                                                                                                                                        | Prefix            |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Pop Animation        | Apply this 'pop' class name on the HTML element to show the animation.                                                                                                                             | `.pop`            |
+| Fade In Animation    | Smoothly transitions the element from invisible to visible. Customize as needed.                                                                                                                   | `.fade-in`        |
+| Slide In from Left   | Slides the element in from the left side. Adjust values as necessary.                                                                                                                              | `.slide-in-left`  |
+| Text Color Animation | Text Color Animation: Creates a gradient text color animation that smoothly transitions through different colors. Ideal for headings or any text you want to highlight with dynamic color changes. | `.text-color`     |
+| Bounce Animation     | Bounces the element like a ball, ideal for animated loaders or playful effects.                                                                                                                    | `.bounce`         |
+| Flip Animation       | Rotates the element 360 degrees along the Y-axis, ideal for flipping cards or icons.                                                                                                               | `.flip`           |
+| Bounce In Animation  | Bounces the element into view from above. Ideal for drawing attention to new content.                                                                                                              | `.bounce-in`      |
+| Fade Out Animation   | Smoothly fades the element out of view. Useful for transitions.                                                                                                                                    | `.fade-out`       |
+| Slide In from Right  | Slides the element in from the right side. Useful for side panels or alerts.                                                                                                                       | `.slide-in-right` |
+| Zoom In Animation    | Scales the element up from a smaller size to its full size. Great for emphasis on new elements.                                                                                                    | `.zoom-in`        |
+| Rotate Animation     | Rotates the element 360 degrees. Useful for loading indicators or visual effects.                                                                                                                  | `.rotate`         |
+| Flash Animation      | Flashes the element in and out of view. Great for attention-grabbing elements or alerts.                                                                                                           | `.flash`          |
 
 ## Requirements
 
